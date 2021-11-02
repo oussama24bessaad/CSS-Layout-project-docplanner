@@ -1,0 +1,137 @@
+body {
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  color: #747474;
+  padding-top: 20px;
+  padding-left: 150px;
+  padding-right: 150px;
+  line-height: 2;
+}
+li {
+  display: inline-block;
+}
+a {
+  color: #ababab;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3cc5b2;
+}
+.active {
+  color: #3cc5b2;
+}
+.docplanner-logo {
+
+  display: flex;
+  justify-content: space-between;
+}
+.docplanner-header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px hidden red;
+}
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.introduction-title {
+  color: #3cc5b2;
+}
+.introduction-text {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  flex: 1;
+}
+.services {
+  display: flex;
+  
+}
+.service-card-for {
+ 
+  font-size: 1.625em;
+ font-weight: 400;
+    color: #fff;
+    margin: 0.3em 0;
+}
+.service-card-title {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+}
+.service-card-patients {
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #00ccb1;
+  text-decoration: ivory;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.service-card-doctors {
+  padding: 20px;
+  border-radius: 8px;
+  margin: 10px;
+  background-color: #3d83df;
+  text-decoration: ivory;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.service-card-clinics {
+  border-radius: 8px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #1b2734;
+  text-decoration: ivory;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.service-card-content {
+ padding-top: 20px;
+}
+
+.dropdown {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  padding-top: 10px;
+  position: absolute;
+  min-width: 220px;
+  margin-left: -100px;
+  background: #fff;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+  z-index: 1;
+}
+.dropdown-content a,
+.dropdown-content li {
+  display: block;
+  width: 90%;
+  
+}
+.dropdown-content a {
+  color: #747474;
+  line-height: 120%;
+  padding: 12px 16px !important;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .dropdown-content a:hover {
+  background-color: #f6f8f8;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
