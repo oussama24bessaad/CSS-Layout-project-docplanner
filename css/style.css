@@ -6,6 +6,7 @@ body {
   padding-left: 150px;
   padding-right: 150px;
   line-height: 2;
+  margin: auto;
 }
 li {
   display: inline-block;
@@ -27,10 +28,20 @@ a:hover {
   justify-content: space-between;
 }
 .docplanner-header {
+  
   display: flex;
   justify-content: space-between;
   border: 1px hidden red;
+  
+  
 }
+/*
+.header-menu {
+  position: fixed;
+  right: 170px;
+}
+*/
+
 .introduction {
   display: flex;
   flex-direction: column;
@@ -38,13 +49,19 @@ a:hover {
   margin-top: 50px;
 }
 .introduction-title {
-  color: #3cc5b2;
+  
+  font-size: 2.125rem;
+    color: #00b39b;
 }
 .introduction-text {
   display: flex;
   flex-direction: row;
   flex-basis: 100%;
   flex: 1;
+}
+.intro-parag{
+margin: 10px;
+text-align: justify;
 }
 .services {
   display: flex;
