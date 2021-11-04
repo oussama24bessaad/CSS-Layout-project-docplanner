@@ -23,17 +23,13 @@ a:hover {
   color: #3cc5b2;
 }
 .docplanner-logo {
-
   display: flex;
   justify-content: space-between;
 }
 .docplanner-header {
-  
   display: flex;
   justify-content: space-between;
   border: 1px hidden red;
-  
-  
 }
 /*
 .header-menu {
@@ -49,9 +45,8 @@ a:hover {
   margin-top: 50px;
 }
 .introduction-title {
-  
   font-size: 2.125rem;
-    color: #00b39b;
+  color: #00b39b;
 }
 .introduction-text {
   display: flex;
@@ -59,27 +54,25 @@ a:hover {
   flex-basis: 100%;
   flex: 1;
 }
-.intro-parag{
-margin: 10px;
-text-align: justify;
+.intro-parag {
+  margin: 10px;
+  text-align: justify;
 }
 .services {
   display: flex;
-  
 }
 .service-card-for {
- 
   font-size: 1.625em;
- font-weight: 400;
-    color: #fff;
-    margin: 0.3em 0;
+  font-weight: 400;
+  color: #fff;
+  margin: 0.3em 0;
 }
 .service-card-title {
-    font-size: 1.5em;
-    font-weight: 300;
-    line-height: 1.2;
-    margin: 0;
-    color: #fff;
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0;
+  color: #fff;
 }
 .service-card-patients {
   border-radius: 8px;
@@ -115,7 +108,7 @@ text-align: justify;
   -o-border-radius: 8px;
 }
 .service-card-content {
- padding-top: 20px;
+  padding-top: 20px;
 }
 
 .dropdown {
@@ -137,7 +130,6 @@ text-align: justify;
 .dropdown-content li {
   display: block;
   width: 90%;
-  
 }
 .dropdown-content a {
   color: #747474;
@@ -151,4 +143,105 @@ text-align: justify;
 }
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.global-title {
+  display: flex;
+  flex-basis: 1;
+  font-size: 1.625rem;
+  color: #00b39b;
+}
+
+.global-text {
+  justify-content: start;
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.stats {
+  
+  padding: 1.875em 0 0.625 em;
+  overflow: hidden;
+  margin: 3.125 rem auto 5.5 rem;
+  display: block;
+  max-height: 520px;
+}
+
+
+.grid-container {
+  justify-content: space-between;
+  display: grid;
+  grid-column: auto;
+  grid-template-columns: 50% auto auto;
+  background: #e5faf8 url(/images/logo.png); 
+  background-image: linear-gradient(
+    -45deg,
+    rgba(0, 204, 177, 0.01) 5%,
+    rgba(61, 199, 223, 0.1)
+  );
+
+  
+  padding: 10px;
+  margin: 5px;
+ 
+}
+.grid-item1 {
+  
+  padding: 30px;
+  font-size: 30px;
+  text-align: left;
+  
+}
+.grid-item2 {
+  margin-top: 40px;
+  padding: 10px;
+  font-size: 30px;
+  text-align: left;
+  
+}
+.grid-item3 {
+  
+  padding: 10px;
+  font-size: 30px;
+  text-align: left;
+  
+}
+
+
+.stats-title {
+  font-size: 1.625rem;
+  font-weight: normal;
+  color: #00b39b;
+}
+.p-stats-sub
+{ 
+  font-size: 0.925rem;
+  display: table-cell;
+}
+.p-stats{
+  font-size: 0.625rem;
+  
+}
+.div-stats {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  display: table-cell;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  float: left;
+  margin: 10px;
+  
+ 
+   
+    
+}
+.h3-stats {
+  font-size: 0.5461538462em;
+    color: #00b39b;
+    margin: 0.5em 0;
+ font-weight: 100;
+letter-spacing: -.3px;
 }
