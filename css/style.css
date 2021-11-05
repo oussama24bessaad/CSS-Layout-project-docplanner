@@ -3,8 +3,8 @@ body {
   font-family: Roboto, sans-serif;
   color: #747474;
   padding-top: 20px;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 80px;
+  padding-right: 80px;
   line-height: 2;
   margin: auto;
 }
@@ -26,10 +26,22 @@ a:hover {
   display: flex;
   justify-content: space-between;
 }
+/* This style will be 98% Made By Oussama Bessaad */
 .docplanner-header {
-  display: flex;
-  justify-content: space-between;
-  border: 1px hidden red;
+    position: fixed;
+    top: 0;
+    left: 85px;
+    width: 87.4%;
+    z-index: 3;
+    background: hsla(0,0%,100%,.98);
+    transition: box-shadow .55s ease .23s;
+    display: flex;
+    justify-content: space-between;
+    border: 1px hidden red;
+    -webkit-transition: box-shadow .55s ease .23s;
+    -moz-transition: box-shadow .55s ease .23s;
+    -ms-transition: box-shadow .55s ease .23s;
+    -o-transition: box-shadow .55s ease .23s;
 }
 /*
 .header-menu {
@@ -161,7 +173,6 @@ a:hover {
 }
 
 .stats {
-  
   padding: 1.875em 0 0.625 em;
   overflow: hidden;
   margin: 3.125 rem auto 5.5 rem;
@@ -169,60 +180,49 @@ a:hover {
   max-height: 520px;
 }
 
-
 .grid-container {
   justify-content: space-between;
   display: grid;
   grid-column: auto;
   grid-template-columns: 50% auto auto;
-  background: #e5faf8 url(/images/logo.png); 
+  background: #e5faf8 url(/images/logo.png);
   background-image: linear-gradient(
     -45deg,
     rgba(0, 204, 177, 0.01) 5%,
     rgba(61, 199, 223, 0.1)
   );
 
-  
   padding: 10px;
   margin: 5px;
- 
 }
 .grid-item1 {
-  
   padding: 30px;
   font-size: 30px;
   text-align: left;
-  
 }
 .grid-item2 {
   margin-top: 40px;
   padding: 10px;
   font-size: 30px;
   text-align: left;
-  
 }
 .grid-item3 {
-  
   padding: 10px;
   font-size: 30px;
   text-align: left;
-  
 }
-
 
 .stats-title {
   font-size: 1.625rem;
   font-weight: normal;
   color: #00b39b;
 }
-.p-stats-sub
-{ 
+.p-stats-sub {
   font-size: 0.925rem;
   display: table-cell;
 }
-.p-stats{
+.p-stats {
   font-size: 0.625rem;
-  
 }
 .div-stats {
   background-color: rgba(255, 255, 255, 0.8);
@@ -233,15 +233,117 @@ a:hover {
   text-align: center;
   float: left;
   margin: 10px;
-  
- 
-   
-    
 }
 .h3-stats {
   font-size: 0.5461538462em;
-    color: #00b39b;
-    margin: 0.5em 0;
- font-weight: 100;
-letter-spacing: -.3px;
+  color: #00b39b;
+  margin: 0.5em 0;
+  font-weight: 100;
+  letter-spacing: -0.3px;
+}
+.office-header {
+  display: block;
+  justify-content: space-between;
+  text-align: center;
+  line-height: normal;
+}
+.header-title {
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+}
+
+.h-title {
+  font-size: 2.1428571429em;
+  color: #00b39b;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+.h-content {
+  display: inline-block;
+  width: 460px;
+  font-size: 0.9rem;
+}
+
+.offices-slider {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.office__desc {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.125em;
+  font-weight: 400;
+  line-height: 1.6666666667;
+  padding: 1.1111111111 em;
+}
+.join-us {
+  margin-bottom: 0;
+  margin-top: 25px;
+  text-align: center;
+}
+.pjoin-us {
+  font-size: 1.6428571429em;
+  color: #333;
+  font-family: roboto, Arial, sans-serif;
+  font-weight: 1;
+  letter-spacing: -0.9px;
+}
+
+.main-footer {
+  border-top: 1 px solid #eef2f2;
+  text-align: center;
+  margin-top: 100px;
+  padding: 1 em 0;
+ 
+}
+
+.section__inner {
+  font-size: 10px;
+  color: #ababab;
+  zoom: 1;
+  max-width: 1015 px;
+  padding: 0 20 px;
+  margin: 0 auto;
+  position: relative;
+}
+.a-footer {
+  
+    text-decoration: none;
+    color: #3d83df;
+    outline: 0;
+    transition: all .2s ease 0s;
+
+}
+
+
+
+
+
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 103.67;
+  height: 29.33px;
+  position: relative;
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  padding: 1.1666666667em1.5em;
+  background: #3d83df;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 3.2em;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: 0.55rem;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  transition: all 0.2s ease 0s;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
